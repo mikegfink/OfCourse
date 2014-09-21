@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OfCourse</string>
+    <string name="title_degree">Degree</string>
+    <string name="title_courses">Courses</string>
+    <string name="title_schedules">Schedules</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
