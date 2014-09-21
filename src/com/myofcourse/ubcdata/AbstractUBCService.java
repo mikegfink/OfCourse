@@ -1,4 +1,4 @@
-package ubcdata;
+package com.myofcourse.ubcdata;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -6,7 +6,7 @@ import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 
-import exceptions.UBCException;
+import com.myofcourse.exceptions.UBCException;
 
 public abstract class AbstractUBCService {
 

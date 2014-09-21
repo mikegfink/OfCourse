@@ -1,4 +1,4 @@
-package exceptions;
+package com.myofcourse.exceptions;
 
 @SuppressWarnings("serial")
 public class ConnectionException extends Exception {

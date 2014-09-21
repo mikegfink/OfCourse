@@ -1,4 +1,4 @@
-package ubcdata;
+package com.myofcourse.ubcdata;
 
 import org.xml.sax.helpers.DefaultHandler;
 

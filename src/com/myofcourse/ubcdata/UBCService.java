@@ -1,4 +1,4 @@
-package ubcdata;
+package com.myofcourse.ubcdata;
 
 import java.io.InputStream;
 import java.net.HttpURLConnection;
@@ -12,8 +12,9 @@ import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 
-import exceptions.ConnectionException;
-import exceptions.UBCException;
+import com.myofcourse.exceptions.ConnectionException;
+import com.myofcourse.exceptions.UBCException;
+
 import android.app.Activity;
 import android.content.Context;
 import android.net.ConnectivityManager;

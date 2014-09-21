@@ -1,14 +1,14 @@
-package ubcdata;
+package com.myofcourse.ubcdata;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 
-public class CourseParser extends AbstractUBCParser {
+
+public class SectionParser extends AbstractUBCParser {
 	private StringBuilder sb;
 
-
-	public CourseParser() {
-		
+	// TODO: Document
+	public SectionParser() {
 	}
 	
 	@Override
@@ -20,6 +20,9 @@ public class CourseParser extends AbstractUBCParser {
 		
 		if(qName.equals("")) {
 			
+		}
+		else if(qName.equals("")) {
+		
 		}
 	}
 	
@@ -42,7 +45,7 @@ public class CourseParser extends AbstractUBCParser {
 		else if(qName.equals("")) {
 			
 		}
-		// TODO: Error checking in UBC's service?
+		// TODO: How does UBC give errors?
 		else if(qName.equals("Code")) 
 			code = Integer.parseInt(data);
 		else if(qName.equals("Message"))
