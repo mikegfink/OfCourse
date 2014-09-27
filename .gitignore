@@ -1,28 +1,28 @@
 # Directories #
-/build/
-/bin/
-target/
+#/build/
+#/bin/
+#target/
  
 # OS Files #
-.DS_Store
+#.DS_Store
  
-*.class
+#*.class
  
 # Package Files #
-*.jar
-*.war
-*.ear
-*.db
+#*.jar
+#*.war
+#*.ear
+#*.db
  
 ######################
 # Windows
 ######################
  
-# Windows image file caches
-Thumbs.db 
+## Windows image file caches
+#Thumbs.db 
  
-# Folder config file
-Desktop.ini
+## Folder config file
+#Desktop.ini
  
 ######################
 # OSX
@@ -43,29 +43,29 @@ Desktop.ini
 # Eclipse
 ######################
  
-*.pydevproject
+#*.pydevproject
 #.project
-.metadata
-bin/**
-tmp/**
-tmp/**/*
-*.tmp
-*.bak
-*.swp
-*~.nib
+#.metadata
+#bin/**
+#tmp/**
+#tmp/**/*
+#*.tmp
+#*.bak
+#*.swp
+#*~.nib
 local.properties
-.classpath
-.settings/
-.loadpath
-/src/main/resources/rebel.xml
-# External tool builders
-.externalToolBuilders/
+#.classpath
+#.settings/
+#.loadpath
+#/src/main/resources/rebel.xml
+## External tool builders
+#.externalToolBuilders/
  
 # Locally stored "Eclipse launch configurations"
-*.launch
+#*.launch
  
 # CDT-specific
-.cproject
+#.cproject
  
 # PDT-specific
-.buildpath
+#.buildpath
